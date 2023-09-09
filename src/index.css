@@ -16,15 +16,42 @@
 
 /* write neccessary css for the grid- simple box style, use the css reset from the star project */
 
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  margin: 7px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.grid {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

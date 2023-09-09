@@ -5,8 +5,8 @@ import Grid from './Grid';
 function App() {
   return (
     <Grid
-      numRows={8}
-      numCols={6}
+      numRows={2}
+      numCols={4}
     />
   );
 }
